@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="header">
+                <div class="theme-switcher">
+                    <div class="theme-btn theme-purple active" data-theme="purple" title="Purple Theme"></div>
+                    <div class="theme-btn theme-dark" data-theme="dark" title="Dark Theme"></div>
+                    <div class="theme-btn theme-ocean" data-theme="ocean" title="Ocean Theme"></div>
+                    <div class="theme-btn theme-sunset" data-theme="sunset" title="Sunset Theme"></div>
+                </div>
+                <button class="sound-toggle" id="soundToggle">🔊 Sound ON</button>
+            </div>
+            <div class="display">
+                <div class="previous-operand" id="previousOperand"></div>
+                <div class="current-operand" id="currentOperand">0</div>
+            </div>
+            <div class="buttons">
+                <button class="clear span-two" data-action="clear">AC</button>
+                <button class="delete" data-action="delete">DEL</button>
+                <button class="operator" data-operator="÷">÷</button>
+                
+                <button data-number="7">7</button>
+                <button data-number="8">8</button>
+                <button data-number="9">9</button>
+                <button class="operator" data-operator="×">×</button>
+                
+                <button data-number="4">4</button>
+                <button data-number="5">5</button>
+                <button data-number="6">6</button>
+                <button class="operator" data-operator="-">-</button>
+                
+                <button data-number="1">1</button>
+                <button data-number="2">2</button>
+                <button data-number="3">3</button>
+                <button class="operator" data-operator="+">+</button>
+                
+                <button data-number="0">0</button>
+                <button data-number=".">.</button>
+                <button class="equals span-two" data-action="equals">=</button>
+            </div>
+        </div>
+
+        <div class="history-panel">
+            <div class="history-header">
+                <h3>History</h3>
+                <button class="clear-history" id="clearHistory">Clear</button>
+            </div>
+            <div class="history-list" id="historyList">
+                <div class="empty-history">No calculations yet</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
