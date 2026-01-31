@@ -374,7 +374,7 @@ This calculator was designed with inspiration from modern design systems while m
 *Web Development Intern*
 
 📧 Email: rramyareddy0220@gmail.com  
-💼 LinkedIn: www.linkedin.com/in/ramya-reddy-5262b03a9  
+💼 LinkedIn: www.linkedin.com/in/ramya-r-5262b03a9  
 🐱 GitHub: https://github.com/ramyar0412
 
 ---
