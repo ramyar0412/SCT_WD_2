@@ -415,19 +415,12 @@ The calculator is production-ready, fully functional, and provides an excellent 
 
 ---
 
-## Feedback & Contributions
+## Project Demonstration Link  
 
-Feedback and suggestions are always welcome! If you have ideas for improvements or find any issues, please feel free to:
-- Open an issue on GitHub
-- Submit a pull request
-- Contact me directly
+https://ramyar0412.github.io/SCT_WD_2/SCT_WD_2/  
 
----
 
 **Thank you for reviewing this project!** 🎉
 
 ---
 
-*Last Updated: January 2026*  
-*Project Status: Completed ✅*  
-*Version: 1.0.0*
